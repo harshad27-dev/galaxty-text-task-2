@@ -1,0 +1,11 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(315deg, #003153 0%, #0abab5 74%);
+  background-repeat: no-repeat
+
+}
+
+
+
+
+@import "tailwindcss";
