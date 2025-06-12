@@ -8,9 +8,8 @@ import { FaInstagram } from 'react-icons/fa'
 const Footer = () => {
   return (
     <div>
-        <hr />
-      <div className="flex justify-center text-white text-1xl">
-        <p className="mt-2">Galaxy Tech solution @2025  </p>
+      <div className="flex justify-center text-white text-1xl m-5">
+        <p className="">Galaxy Tech solution @2025  </p>
         <div>
             <div className="flex gap-4 ml-5">
                 <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 transition-colors duration-200">

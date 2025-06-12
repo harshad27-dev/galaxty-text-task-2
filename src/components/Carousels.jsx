@@ -16,7 +16,7 @@ const Carousel = ({ items }) => {
   };
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto">
+    <div className="relative w-full max-w-4xl mx-auto mt-22">
       <p className='text-4xl flex justify-center m-3 text-white'>Projects</p>
       <div className="relative h-96 overflow-hidden rounded-lg">
         {items.map((item, index) => (
@@ -62,9 +62,9 @@ const Carousel = ({ items }) => {
 // Usage example
 const App = () => {
   const carouselItems = [
-    <div className="bg-blue-500 h-full w-full flex items-center justify-center text-white text-4xl"><img src="https://i.etsystatic.com/20116942/r/il/ebb4be/6607106719/il_1588xN.6607106719_ha19.jpg" alt="" /></div>,
-    <div className="bg-green-500 h-full w-full flex items-center justify-center text-white text-4xl"><img src="https://happenings.lpu.in/wp-content/uploads/2021/06/Are-Projects-in-Engineering-Worth-the-Effort.jpg" alt="" /></div>,
-    <div className="bg-purple-500 h-full w-full flex items-center justify-center text-white text-4xl"><img src="https://happenings.lpu.in/wp-content/uploads/2021/06/Are-Projects-in-Engineering-Worth-the-Effort.jpg" alt="" /></div>,
+    <div className="h-full w-full flex items-center justify-center text-white text-4xl"><img src="https://i.etsystatic.com/20116942/r/il/ebb4be/6607106719/il_1588xN.6607106719_ha19.jpg" alt="" /></div>,
+    <div className="h-full w-full flex items-center justify-center text-white text-4xl"><img src="https://happenings.lpu.in/wp-content/uploads/2021/06/Are-Projects-in-Engineering-Worth-the-Effort.jpg" alt="" /></div>,
+    <div className=" h-full w-full flex items-center justify-center text-white text-4xl"><img src="https://happenings.lpu.in/wp-content/uploads/2021/06/Are-Projects-in-Engineering-Worth-the-Effort.jpg" alt="" /></div>,
   ];
 
   return (

@@ -23,14 +23,13 @@ const Contact = () => {
                 ></textarea>
                 <button 
                 type="submit" 
-                className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-all shadow-lg hover:shadow-xl"
+                className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-all shadow-lg hover:shadow-xl mb-5"
                 >
                 Send Message
                 </button>
             </div>
         </form>
       </div>
-      <hr />
     </div>
   )
 }
